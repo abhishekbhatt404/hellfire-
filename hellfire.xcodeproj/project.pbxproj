@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46E152BB1FCA0EF4006E9194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E152BA1FCA0EF4006E9194 /* AppDelegate.swift */; };
+		46E152BD1FCA0EF4006E9194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E152BC1FCA0EF4006E9194 /* ViewController.swift */; };
+		46E152C01FCA0EF4006E9194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E152BE1FCA0EF4006E9194 /* Main.storyboard */; };
+		46E152C21FCA0EF4006E9194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E152C11FCA0EF4006E9194 /* Assets.xcassets */; };
+		46E152C51FCA0EF4006E9194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E152C31FCA0EF4006E9194 /* LaunchScreen.storyboard */; };
+		46E152D01FCA0EF4006E9194 /* hellfireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E152CF1FCA0EF4006E9194 /* hellfireTests.swift */; };
+		46E152DB1FCA0EF4006E9194 /* hellfireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E152DA1FCA0EF4006E9194 /* hellfireUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46E152CC1FCA0EF4006E9194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E152AF1FCA0EF4006E9194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E152B61FCA0EF4006E9194;
+			remoteInfo = hellfire;
+		};
+		46E152D71FCA0EF4006E9194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E152AF1FCA0EF4006E9194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E152B61FCA0EF4006E9194;
+			remoteInfo = hellfire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46E152B71FCA0EF4006E9194 /* hellfire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellfire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E152BA1FCA0EF4006E9194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46E152BC1FCA0EF4006E9194 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46E152BF1FCA0EF4006E9194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46E152C11FCA0EF4006E9194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46E152C41FCA0EF4006E9194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46E152C61FCA0EF4006E9194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E152CB1FCA0EF4006E9194 /* hellfireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellfireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E152CF1FCA0EF4006E9194 /* hellfireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellfireTests.swift; sourceTree = "<group>"; };
+		46E152D11FCA0EF4006E9194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E152D61FCA0EF4006E9194 /* hellfireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellfireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E152DA1FCA0EF4006E9194 /* hellfireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellfireUITests.swift; sourceTree = "<group>"; };
+		46E152DC1FCA0EF4006E9194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46E152B41FCA0EF4006E9194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E152C81FCA0EF4006E9194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E152D31FCA0EF4006E9194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46E152AE1FCA0EF4006E9194 = {
+			isa = PBXGroup;
+			children = (
+				46E152B91FCA0EF4006E9194 /* hellfire */,
+				46E152CE1FCA0EF4006E9194 /* hellfireTests */,
+				46E152D91FCA0EF4006E9194 /* hellfireUITests */,
+				46E152B81FCA0EF4006E9194 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46E152B81FCA0EF4006E9194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46E152B71FCA0EF4006E9194 /* hellfire.app */,
+				46E152CB1FCA0EF4006E9194 /* hellfireTests.xctest */,
+				46E152D61FCA0EF4006E9194 /* hellfireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46E152B91FCA0EF4006E9194 /* hellfire */ = {
+			isa = PBXGroup;
+			children = (
+				46E152BA1FCA0EF4006E9194 /* AppDelegate.swift */,
+				46E152BC1FCA0EF4006E9194 /* ViewController.swift */,
+				46E152BE1FCA0EF4006E9194 /* Main.storyboard */,
+				46E152C11FCA0EF4006E9194 /* Assets.xcassets */,
+				46E152C31FCA0EF4006E9194 /* LaunchScreen.storyboard */,
+				46E152C61FCA0EF4006E9194 /* Info.plist */,
+			);
+			path = hellfire;
+			sourceTree = "<group>";
+		};
+		46E152CE1FCA0EF4006E9194 /* hellfireTests */ = {
+			isa = PBXGroup;
+			children = (
+				46E152CF1FCA0EF4006E9194 /* hellfireTests.swift */,
+				46E152D11FCA0EF4006E9194 /* Info.plist */,
+			);
+			path = hellfireTests;
+			sourceTree = "<group>";
+		};
+		46E152D91FCA0EF4006E9194 /* hellfireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46E152DA1FCA0EF4006E9194 /* hellfireUITests.swift */,
+				46E152DC1FCA0EF4006E9194 /* Info.plist */,
+			);
+			path = hellfireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46E152B61FCA0EF4006E9194 /* hellfire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E152DF1FCA0EF4006E9194 /* Build configuration list for PBXNativeTarget "hellfire" */;
+			buildPhases = (
+				46E152B31FCA0EF4006E9194 /* Sources */,
+				46E152B41FCA0EF4006E9194 /* Frameworks */,
+				46E152B51FCA0EF4006E9194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hellfire;
+			productName = hellfire;
+			productReference = 46E152B71FCA0EF4006E9194 /* hellfire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46E152CA1FCA0EF4006E9194 /* hellfireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E152E21FCA0EF4006E9194 /* Build configuration list for PBXNativeTarget "hellfireTests" */;
+			buildPhases = (
+				46E152C71FCA0EF4006E9194 /* Sources */,
+				46E152C81FCA0EF4006E9194 /* Frameworks */,
+				46E152C91FCA0EF4006E9194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46E152CD1FCA0EF4006E9194 /* PBXTargetDependency */,
+			);
+			name = hellfireTests;
+			productName = hellfireTests;
+			productReference = 46E152CB1FCA0EF4006E9194 /* hellfireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46E152D51FCA0EF4006E9194 /* hellfireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E152E51FCA0EF4006E9194 /* Build configuration list for PBXNativeTarget "hellfireUITests" */;
+			buildPhases = (
+				46E152D21FCA0EF4006E9194 /* Sources */,
+				46E152D31FCA0EF4006E9194 /* Frameworks */,
+				46E152D41FCA0EF4006E9194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46E152D81FCA0EF4006E9194 /* PBXTargetDependency */,
+			);
+			name = hellfireUITests;
+			productName = hellfireUITests;
+			productReference = 46E152D61FCA0EF4006E9194 /* hellfireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46E152AF1FCA0EF4006E9194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Abhishek;
+				TargetAttributes = {
+					46E152B61FCA0EF4006E9194 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					46E152CA1FCA0EF4006E9194 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46E152B61FCA0EF4006E9194;
+					};
+					46E152D51FCA0EF4006E9194 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46E152B61FCA0EF4006E9194;
+					};
+				};
+			};
+			buildConfigurationList = 46E152B21FCA0EF4006E9194 /* Build configuration list for PBXProject "hellfire" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46E152AE1FCA0EF4006E9194;
+			productRefGroup = 46E152B81FCA0EF4006E9194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46E152B61FCA0EF4006E9194 /* hellfire */,
+				46E152CA1FCA0EF4006E9194 /* hellfireTests */,
+				46E152D51FCA0EF4006E9194 /* hellfireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46E152B51FCA0EF4006E9194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E152C51FCA0EF4006E9194 /* LaunchScreen.storyboard in Resources */,
+				46E152C21FCA0EF4006E9194 /* Assets.xcassets in Resources */,
+				46E152C01FCA0EF4006E9194 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E152C91FCA0EF4006E9194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E152D41FCA0EF4006E9194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46E152B31FCA0EF4006E9194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E152BD1FCA0EF4006E9194 /* ViewController.swift in Sources */,
+				46E152BB1FCA0EF4006E9194 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E152C71FCA0EF4006E9194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E152D01FCA0EF4006E9194 /* hellfireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E152D21FCA0EF4006E9194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E152DB1FCA0EF4006E9194 /* hellfireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46E152CD1FCA0EF4006E9194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46E152B61FCA0EF4006E9194 /* hellfire */;
+			targetProxy = 46E152CC1FCA0EF4006E9194 /* PBXContainerItemProxy */;
+		};
+		46E152D81FCA0EF4006E9194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46E152B61FCA0EF4006E9194 /* hellfire */;
+			targetProxy = 46E152D71FCA0EF4006E9194 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46E152BE1FCA0EF4006E9194 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E152BF1FCA0EF4006E9194 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46E152C31FCA0EF4006E9194 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E152C41FCA0EF4006E9194 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46E152DD1FCA0EF4006E9194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46E152DE1FCA0EF4006E9194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46E152E01FCA0EF4006E9194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hellfire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.hellfire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46E152E11FCA0EF4006E9194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hellfire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.hellfire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46E152E31FCA0EF4006E9194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hellfireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.hellfireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellfire.app/hellfire";
+			};
+			name = Debug;
+		};
+		46E152E41FCA0EF4006E9194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hellfireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.hellfireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellfire.app/hellfire";
+			};
+			name = Release;
+		};
+		46E152E61FCA0EF4006E9194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hellfireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.hellfireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hellfire;
+			};
+			name = Debug;
+		};
+		46E152E71FCA0EF4006E9194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hellfireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.hellfireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hellfire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46E152B21FCA0EF4006E9194 /* Build configuration list for PBXProject "hellfire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E152DD1FCA0EF4006E9194 /* Debug */,
+				46E152DE1FCA0EF4006E9194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E152DF1FCA0EF4006E9194 /* Build configuration list for PBXNativeTarget "hellfire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E152E01FCA0EF4006E9194 /* Debug */,
+				46E152E11FCA0EF4006E9194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E152E21FCA0EF4006E9194 /* Build configuration list for PBXNativeTarget "hellfireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E152E31FCA0EF4006E9194 /* Debug */,
+				46E152E41FCA0EF4006E9194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E152E51FCA0EF4006E9194 /* Build configuration list for PBXNativeTarget "hellfireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E152E61FCA0EF4006E9194 /* Debug */,
+				46E152E71FCA0EF4006E9194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46E152AF1FCA0EF4006E9194 /* Project object */;
+}
